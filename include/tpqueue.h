@@ -15,7 +15,7 @@ class TPQueue {
 
  private:
     struct Item {
-        T data;
+        T value;
         Item* next;
         Item* prev;
     };

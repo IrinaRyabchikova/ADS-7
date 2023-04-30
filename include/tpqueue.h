@@ -14,9 +14,11 @@ class TPQueue {
  private:
     struct Item {
         T data;
-        Item* next,* prev;
+        Item* next;
+        Item* prev;
     };
-    Item* head,* tail;
+    Item* head;
+    Item* tail;
     TPQueue::Item* create(const T&);
 };
 
